@@ -1,0 +1,16 @@
+[project]
+name = "django-shadcn-starter"
+version = "0.1.0"
+description = "A starter kit for django + shadcnui"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=5.2.8",
+    "django-cotton>=2.4.0",
+]
+
+authors = [
+  { name = "Dinoh R.", email = "dinohratiarisandy@gmail.com" },
+]
+license = "MIT"
+keywords = ["django", "shadcn", "starter", "tailwind"]

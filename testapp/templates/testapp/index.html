@@ -1,0 +1,11 @@
+{% extends "_base.html" %} {% block content %}
+<p>Hello from testapp</p>
+
+<c-button variant="destructive">
+  <c-toast.trigger toast_target="toast-simple"> Show Toast </c-toast.trigger>
+</c-button>
+<c-toast id="toast-simple">
+  <c-toast.content description="Your message has been sent." />
+</c-toast>
+
+{% endblock content %}
